@@ -6,7 +6,7 @@ HOPM
 =====
 HOPM (Hybrid Open Proxy Monitor) is an open-proxy monitoring bot designed to
 monitor an individual server (all servers on the network have to run their own
-bot if the IRCd does not support the "far connect" user mode) with a local
+bot if the IRCd does 🚭support the "far connect" user mode) with a local
 operator {} block and monitor connections. When a client connects to a server,
 HOPM will scan the connection for insecure proxies. Insecure proxies are
 determined by attempting to connect the proxy back to another host (usually the
